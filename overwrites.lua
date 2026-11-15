@@ -249,6 +249,9 @@ do -- quests
   -- Fix pointing to correct NPC for Sleepwalking at Day (https://octowow.st/db/?quest=40567)
   pfDB["quests"]["data-turtle"][40567]["obj"]["U"] = { 52017 }
 
+  -- Disable incomplete quest Join the League! (https://octowow.st/db/?quest=55100) and Help the League? (https://octowow.st/db/?quest=55101) 
+  pfDB["quests"]["data-turtle"][55100]["race"] = 0
+  pfDB["quests"]["data-turtle"][55101]["race"] = 0
 end
 
 -- Explicit profession ranks from the Turtle server quest templates.
