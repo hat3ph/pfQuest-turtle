@@ -35,8 +35,14 @@ do -- items
   -- Change item drop rate to 100% for Dark Iron Aggression (https://octowow.st/db/?quest=41905)
   pfDB["items"]["data-turtle"][42072]["O"] = { [2020263] = 100 }
 
-  -- Disable vendor sale for Simple Wood
-  pfDB["items"]["data-turtle"][4470] = { ["O"] = { [2020267] = 1, [2020268] = 1, [2020269] = 1, [2020270] = 1, [2020271] = 1, [2020272] = 1, [2020273] = 1, [2020274] = 1, [2020275] = 1, [2020276] = 1, [2020277] = 1, [2020278] = 1, [2020279] = 1, [2020280] = 1, [2020281] = 1, [2020301] = 1 } }
+  -- Disable vendor sale for Simple Wood and update drop rate from survival woodcutting
+  pfDB["items"]["data-turtle"][4470] = { ["O"] = { [2020267] = 100, [2020268] = 100, [2020269] = 100, [2020270] = 100, [2020271] = 100, [2020272] = 100, [2020273] = 100, [2020274] = 100, [2020275] = 100, [2020276] = 100, [2020277] = 100, [2020278] = 100, [2020279] = 100, [2020280] = 100, [2020281] = 100, [2020301] = 100 } }
+  -- Update drop rate for Bright Wood from tree
+  pfDB["items"]["data-turtle"][42007] = { ["O"] = { [2020282] = 100, [2020283] = 100, [2020284] = 100, [2020285] = 100, [2020286] = 100, [2020287] = 100 } }
+  -- Update drop rate for Shade Wood from tree
+  pfDB["items"]["data-turtle"][42008] = { ["O"] = { [2020288] = 100, [2020289] = 100, [2020290] = 100, [2020291] = 100, [2020292] = 100, [2020293] = 100, [2020294] = 100, [2020295] = 100, [2020296] = 100, [2020297] = 100, [2020309] = 100 } }
+  -- Update drop rate for Star Wood from tree
+  pfDB["items"]["data-turtle"][11291] = { ["O"] = { [2020299] = 100, [2020300] = 25 } }
 end
 
 do -- item use requirements
