@@ -21,8 +21,8 @@ do -- items
   pfDB["items"]["data-turtle"][60602]["U"] = { [60729] = 100 }
   pfDB["items"]["data-turtle"][60603]["U"] = { [60730] = 100 }
 
-  -- Change items drop rate for The Plaguewood (https://octowow.st/db/?quest=41942) from 1% to 100% according to octowow's DB
-  pfDB["items"]["data-turtle"][42212]["U"] = { [8523] = 100, [8524] = 100, [8525] = 100, [8530] = 100, [8543] = 100, [62337] = 100 }
+  -- Change items drop rate for The Plaguewood (https://octowow.st/db/?quest=41942) according to octowow's DB
+  pfDB["items"]["data-turtle"][42212]["U"] = { [8523] = 60, [8524] = 60, [8525] = 60, [8530] = 60, [8543] = 60, [62337] = 60 }
   pfDB["items"]["data-turtle"][42213]["O"] = { [2020311] = 100 }
 
   -- Fix Belgar & Chief Rnarl's location for Pestering the Pesterhide quest (https://octowow.st/db/?quest=40082)
