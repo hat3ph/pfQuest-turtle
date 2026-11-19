@@ -249,8 +249,8 @@ do -- quests
   -- Missing item objective for quest The Plaguewood (https://octowow.st/db/?quest=41942)
   pfDB["quests"]["data-turtle"][41942]["obj"] = { ["I"] = { 42212, 42213 } }
 
-  -- Missing Pre-Quest for Covert Ops - Beta (https://octowow.st/db/?quest=1080)
-  pfDB["quests"]["data-turtle"][1080]["pre"] = { 1079 }
+  -- Missing Pre-Quest for Covert Ops - Beta (https://octowow.st/db/?quest=1080). Disable for now as there is discrepancy between Octo and Raven's DB.
+  --pfDB["quests"]["data-turtle"][1080]["pre"] = { 1079 }
 
   -- Fix pointing to correct NPC for Sleepwalking at Day (https://octowow.st/db/?quest=40567)
   pfDB["quests"]["data-turtle"][40567]["obj"]["U"] = { 52017 }
